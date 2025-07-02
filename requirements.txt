@@ -1,9 +1,9 @@
-requests
+geopy
+contextily
+scikit-image
 google-cloud-storage
 google-auth
 pandas
-pytest
-python-dotenv
 build
 twine
 dbt-core
