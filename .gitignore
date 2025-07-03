@@ -188,4 +188,3 @@ cython_debug/
 **/plugins/
 **/credentials/
 .conda/
-config/

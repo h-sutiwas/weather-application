@@ -1,0 +1,19 @@
+{
+  "cities": [
+    ["Kyiv", "Ukraine"],
+    ["Warsaw", "Poland"],
+    ["Berlin", "Germany"],
+    ["London", "UK"],
+    ["Madrid", "Spain"],
+    ["Paris", "France"],
+    ["Rome", "Italy"],
+    ["Prague", "Czechia"],
+    ["Istanbul", "Turkey"],
+    ["Stockholm", "Sweden"],
+    ["Sofia", "Bulgaria"],
+    ["Bucharest", "Romania"],
+    ["Zurich", "Switzerland"],
+    ["Bangkok", "Thailand"]
+  ],
+  "columns_to_ignore": []
+}
