@@ -9,6 +9,8 @@ import pandas as pd
 from geopy.geocoders import Nominatim
 from geopy.extra.rate_limiter import RateLimiter
 
+
+
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
@@ -68,6 +70,6 @@ if __name__ == '__main__':
     src_dir = pathlib.Path(__file__).parent
     data_dir = src_dir.parent / 'data'
 
-    # data_dir.mkdir(exist_ok=True)
+    data_dir.mkdir(exist_ok=True)
 
     df.to_parquet(data_dir / "api_data.parquet", index=False)
